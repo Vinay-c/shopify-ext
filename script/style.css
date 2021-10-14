@@ -1,0 +1,153 @@
+div#cart-notification {
+    display: none;
+}
+
+#popUpModal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    font-family: sans-serif;
+}
+.popUpcontent {
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 26%;
+    margin: auto;
+    border-radius: 0px;
+    border: 0px solid #fcfcfc;
+    padding: 20px 30px 5px 30px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+
+.popUpcontent img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.labelSmall {
+    font-size: 12px;
+}
+.mainProductLabel {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    color:#2a2a2a;
+}
+.productPrice {
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.addToCart {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.noThanks {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.popupCloseBtn {
+    position: absolute;
+    left: auto;
+    top: 0;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+.productVariants {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.quantity-wrapper {
+    display: flex;
+    width: unset;
+    justify-content: space-between;
+}
+
+#prodQuantity {
+    border: none;
+    text-align: center;
+    width: 70%;
+}
+.counterMaininner {
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.counterMain {
+    width: 47%;
+    margin-right: 3%;
+    float:left;
+}
+
+.select-size {
+    width: 50%;
+    float:left;
+}
+
+.productVariants select {
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 40px;
+}
+
+.productVariants select:focus-visible,
+.productVariants select {
+    outline: none;
+    outline-offset: 0.3rem;
+    box-shadow: none;
+}
+
+.productVariants label {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+.select-color {
+    margin-top: 10px;
+}
+
+.counterMain span {
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+input#prodQuantity:focus-visible,
+input#prodQuantity:focus {
+    outline: none !important;
+    outline-offset: 0.3rem !important;
+    box-shadow: none !important;
+}
+
